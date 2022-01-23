@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav-item {
+    text-align: end;
+}
