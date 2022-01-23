@@ -6,9 +6,8 @@ html {
 body {
     background-color: black;
     color: white;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(164deg, rgba(0, 0, 0, 1) 0%, rgba(11, 46, 77, 1) 100%);
-
+    /* background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(11, 46, 77, 1) 100%); */
 }
 
 .navbar {
@@ -18,7 +17,7 @@ body {
 .navbar-brand {
     color: black;
     text-decoration: none;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
 }
 
 a:hover {
@@ -27,9 +26,51 @@ a:hover {
 
 .nav-item {
     text-align: end;
-    margin-right: 50px;
+    /*margin-right: 50px;*/
 }
 
 .navbar-toggler {
-    margin-right: 50px;
+    /*margin-right: 50px;*/
 }
+
+.backgroundImage {
+    /* placeholder image */
+    background: url(https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1957&q=80);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.firstName, .lastName {
+    font-size: 7vw;
+    margin-left: 5%;
+}
+
+.firstName {
+    margin-top: 12vh;
+}
+
+.role {
+    margin-top: 10vh;
+    margin-left: 6%;
+    font-size: 3vw;
+}
+
+/*------------------------*/
+
+/* code to make the menu items not push down the rest of the page*/
+nav ul li {
+    position: relative;
+}
+
+.navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin-right: 10px;
+}
+
+/*------------------------*/
