@@ -20,13 +20,21 @@ body {
     /*margin-left: 50px;*/
 }
 
-a:hover {
-    color: black;
-}
-
 .nav-item {
     text-align: end;
     /*margin-right: 50px;*/
+}
+
+a.nav-link {
+    color: rgb(233, 233, 233) !important;
+}
+
+a.nav-link:hover {
+    color: rgb(114, 177, 248) !important;
+}
+
+a:hover {
+    color: rgb(114, 177, 248) !important;
 }
 
 .navbar-toggler {
