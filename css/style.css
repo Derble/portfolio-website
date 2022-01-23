@@ -1,5 +1,14 @@
+html {
+    height: 100%;
+    /*this fills the viewport with the gradient*/
+}
+
 body {
     background-color: black;
+    color: white;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(164deg, rgba(0, 0, 0, 1) 0%, rgba(11, 46, 77, 1) 100%);
+
 }
 
 .navbar {
