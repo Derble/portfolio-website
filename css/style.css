@@ -8,6 +8,9 @@ body {
     color: white;
     background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(11, 46, 77) 100%);
+    /* font-family: Helvetica; */
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
 }
 
 .navbar {
@@ -64,8 +67,18 @@ a:hover {
     margin-top: 12vh;
 }
 
+hr {
+    margin-left: 5%;
+    height: 1em !important;
+    color: #eb4034;
+    width: 15vw;
+    opacity: 1;
+    border-radius: 2em;
+    margin-top: 5vh;
+}
+
 .role {
-    margin-top: 10vh;
+    margin-top: 7vw;
     margin-left: 6%;
     font-size: 3vw;
 }
