@@ -4,10 +4,10 @@ html {
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
     color: white;
-    /* background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(11, 46, 77, 1) 100%); */
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(11, 46, 77) 100%);
 }
 
 .navbar {
@@ -22,19 +22,20 @@ body {
 
 .nav-item {
     text-align: end;
+    font-size: 3vw;
     /*margin-right: 50px;*/
 }
 
 a.nav-link {
-    color: rgb(233, 233, 233) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 a.nav-link:hover {
-    color: rgb(114, 177, 248) !important;
+    color: #eb4034 !important;
 }
 
 a:hover {
-    color: rgb(114, 177, 248) !important;
+    color: #eb4034 !important;
 }
 
 .navbar-toggler {
@@ -43,11 +44,15 @@ a:hover {
 
 .backgroundImage {
     /* placeholder image */
-    background: url(https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1957&q=80);
+    /* background: url(https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1957&q=80);
     background-position: center;
     background-size: cover;
     height: 100vh;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background: url("../img/stars.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
 .firstName, .lastName {
