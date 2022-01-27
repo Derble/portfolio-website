@@ -1,38 +1,43 @@
 html {
     /* height: 100%; */
     /*this fills the viewport with the gradient*/
-    background: rgb(0, 0, 0);
 }
 
 body {
-    /* background-color: black; */
-    color: white;
+    /* color: white;
     background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(11, 46, 77) 100%);
     background-repeat: no-repeat;
-    /* font-family: Helvetica; */
-    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    */
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .navbar {
     background-color: transparent !important;
+    margin-top: 50px;
 }
 
 .navbar-brand {
-    color: black;
-    text-decoration: none;
+    /* color: black;
+    text-decoration: none; */
     /*margin-left: 50px;*/
+    letter-spacing: .2em;
+    display: flex;
 }
 
 .nav-item {
-    text-align: end;
-    font-size: 3vw;
+    /* text-align: end;
+    font-size: 3vw; */
     /*margin-right: 50px;*/
+    margin-left: 1em;
+}
+
+img {
+    margin-right: 20px;
 }
 
 a.nav-link {
-    color: rgb(255, 255, 255) !important;
+    /* color: rgb(255, 255, 255) !important; */
 }
 
 a.nav-link:hover {
@@ -40,13 +45,13 @@ a.nav-link:hover {
 }
 
 a:hover {
-    color: #eb4034 !important;
+    /* color: #eb4034 !important; */
 }
 
 .navbar-toggler {
     /*margin-right: 50px;*/
     /* border: none; */
-    color: white !important;
+    /* color: white !important; */
 
 }
 
@@ -57,51 +62,83 @@ a:hover {
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat; */
-    background: url("../img/stars.png");
+    /* background: url("../img/stars.png");
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 100vh;*/
 }
 
-.firstName, .lastName {
-    font-size: 8vw;
-    margin-left: 5%;
-}
-
-.firstName {
-    margin-top: 12vh;
+h1 {
+    margin: 0;
+    align-self: center;
 }
 
 hr {
-    margin-left: 5%;
+    margin: 0 0 10px 60px;
     height: 5px !important;
     color: #eb4034;
-    width: 15vw;
+    width: 20vw;
     opacity: 1;
     border-radius: 2em;
-    margin-top: 5vh;
 }
 
 .role {
-    margin-top: 7vw;
+    margin-left: 60px;
+    /* margin-top: 7vw;
     margin-left: 6%;
-    font-size: 4vw;
+    font-size: 4vw;*/
 }
 
 /*------------------------*/
 
 /* code to make the menu items not push down the rest of the page*/
 nav ul li {
-    position: relative;
+    /* position: relative; */
+
 }
 
 .navbar-collapse {
-    position: absolute;
+    /* position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     z-index: 1;
-    margin-right: 10px;
+    margin-right: 10px; */
 }
 
 /*------------------------*/
+
+.mobile-name {
+    display: none;
+}
+
+@media only screen and (max-width: 660px) {
+    h1 {
+        font-size: 6vw;
+    }
+
+    .navbar-brand {
+        /* color: black;
+        text-decoration: none; */
+        /*margin-left: 50px;*/
+        letter-spacing: normal;
+        display: block;
+    }
+
+    a>h1 {
+        display: none;
+    }
+
+    .mobile-name {
+        margin-left: 60px;
+        display: block;
+    }
+
+    .role {
+        font-size: 5vw !important;
+    }
+
+    hr {
+        margin: 15px 0 10px 60px;
+    }
+}
