@@ -99,6 +99,28 @@ hr {
     font-size: 4vw;*/
 }
 
+.card {
+    border: none;
+}
+
+/* remove the rounded top left and right corners of the card */
+.card-img-top {
+    /* border-top-left-radius: 0;
+    border-top-right-radius: 0; */
+    border-radius: 10px;
+    /* overflow: hidden; */
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.title-explanation {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
 /* code to make the menu items not push down the rest of the page -----------*/
 nav ul li {
     /* position: relative; */
@@ -114,20 +136,35 @@ nav ul li {
     margin-right: 10px; */
 }
 
-.card {
-    border: none;
+/*end non-push down code ---------------------------------------*/
+
+/* start of the scroll bar code-------------------------------- */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
 }
 
-/* remove the rounded top left and right corners of the card */
-.card-img-top {
-    /* border-top-left-radius: 0;
-    border-top-right-radius: 0; */
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    box-shadow: inset 0 0 4px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /* background: rgb(255, 213, 49); */
+    background: rgb(43, 43, 43);
     border-radius: 10px;
-    /* overflow: hidden; */
-    object-fit: cover;
+    box-shadow: inset 0 0 5px grey;
 }
 
-/*end non-push down code ------------------------*/
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 0, 99);
+    box-shadow: none;
+}
+
+/* end of the scroll bar code---------------------------------- */
 
 .mobile-name {
     display: none;
