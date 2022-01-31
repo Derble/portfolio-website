@@ -18,51 +18,126 @@
 </head>
 
 <body>
-    <div class="backgroundImage">
-        <nav class="navbar sticky-top bg-dark navbar-dark mx-5 mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Derry Lammerding</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Certificates</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light pt-4 px-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logoDL" src="favicon/android-chrome-192x192.png" alt="logo with letters D and L" width="60" height="60">
+                <h1 class="fw-bold">DERRY LAMMERDING</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end fs-6" id="navbarNav">
+                <ul class="navbar-nav text-end">
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline-animation" href="#portfolio">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline-animation" href="#skills">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline-animation" href="#certificates">CERTIFICATES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline-animation" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline-animation" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-name">
+        <h1 class="fw-bold">DERRY LAMMERDING</h1>
+    </div>
+    <div class="d-flex">
+        <hr>
+        <h2 class="role fs-3 mt-1 ms-3 mb-4 d-flex d-inline-flex">web dev & design</h2>
+    </div>
+    <div class="hero">
+
+    </div>
+
+    <div class="container">
+        <!-- trying out my own style -->
+        <!-- <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="img/travel-japan.PNG" alt="Travel Japan Flexbox Project">
+                <div class="project-title"></div>
+                <div class="project-concepts"></div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+
+            </div>
+        </div> -->
+        <div class="row my-5 hover-underline-animation" id="portfolio">
+            <h2 class="fw-bold">Portfolio</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-5">
+            <div class="col">
+                <div class="card">
+                    <img src="img/travel-japan.PNG" class="card-img-top" alt="Travel Japan Flexbox Project">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Travel Japan | <span class="title-explanation">Example layout using CSS Grid for fictional travel website</span></h5>
+                        <p class="card-text">Bootstrap | CSS Grid | HTML | CSS</p>
+                    </div>
                 </div>
             </div>
-        </nav>
-
-        <!-- not in container since I don't want bootstrap's margins here -->
-        <div>
-            <h1 class="firstName">Derry</h1>
-            <h1 class="lastName">Lammerding</h1>
-        </div>
-        <div>
-            <hr>
-        </div>
-        <div>
-            <h2 class="role">web dev & design</h2>
+            <div class="col">
+                <div class="card">
+                    <img src="img/temperature-converter-3.PNG" class="card-img-top" alt="Temperature Converter Screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Temperature Converter | <span class="title-explanation">Temperature converter website using Bootstrap and PHP</span></h5>
+                        <p class="card-text">Bootstrap | PHP | HTML | CSS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold"> | <span class="title-explanation">Example</span></h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold"> | <span class="title-explanation">Example</span></h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="row">
-            <h2>Portfolio</h2>
+        <div class="row my-5 hover-underline-animation" id="skills">
+            <h2 class="fw-bold">Skills</h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row my-5 hover-underline-animation" id="certificates">
+            <h2 class="fw-bold">Certificates</h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row my-5 hover-underline-animation" id="about">
+            <h2 class="fw-bold">About</h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row my-5 hover-underline-animation" id="contact">
+            <h2 class="fw-bold">Contact</h2>
         </div>
     </div>
 

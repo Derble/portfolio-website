@@ -1,202 +1,107 @@
+html {
+    /* height: 100%; */
+    /*this fills the viewport with the gradient*/
+    background: rgb(0, 0, 0);
+}
+
 body {
+    /* background-color: black; */
+    color: white;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(11, 46, 77) 100%);
+    background-repeat: no-repeat;
+    /* font-family: Helvetica; */
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    background: #fff;
 }
 
 .navbar {
-    /* background-color: transparent !important; */
-    background-color: #fff !important;
-    margin-top: 50px;
+    background-color: transparent !important;
 }
 
 .navbar-brand {
-    letter-spacing: .2em;
-    display: flex;
+    color: black;
+    text-decoration: none;
+    /*margin-left: 50px;*/
 }
 
 .nav-item {
-    margin-left: 1em;
-}
-
-img {
-    margin-right: 20px;
+    text-align: end;
+    font-size: 3vw;
+    /*margin-right: 50px;*/
 }
 
 a.nav-link {
-    /* color: rgb(255, 255, 255) !important; */
+    color: rgb(255, 255, 255) !important;
 }
 
 a.nav-link:hover {
-    color: rgb(255, 0, 99);
-    font-weight: bold;
+    color: #eb4034 !important;
 }
 
 a:hover {
-    /* color: #eb4034 !important; */
+    color: #eb4034 !important;
 }
-
-/* menu hover underline animation -------------- */
-.hover-underline-animation {
-    display: inline-block;
-    position: relative;
-    /* color: rgb(255, 0, 99); */
-    color: black;
-}
-
-.hover-underline-animation:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(90deg, rgba(255, 0, 99, 1) 0%, rgba(255, 213, 49, 1) 100%);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-/* end menu hover underline animation -------------- */
 
 .navbar-toggler {
     /*margin-right: 50px;*/
     /* border: none; */
-    /* color: white !important; */
+    color: white !important;
+
 }
 
-.hero {
-    /* background: url("../img/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg"); */
-    /* background-position: center; */
-    /* background-size: cover; */
-    background: rgb(255, 0, 99);
-    background: linear-gradient(90deg, rgba(255, 0, 99, 1) 0%, rgba(255, 213, 49, 1) 100%);
+.backgroundImage {
+    /* placeholder image */
+    /* background: url(https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1957&q=80);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat; */
+    background: url("../img/stars.png");
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 
-h1 {
-    margin: 0;
-    align-self: center;
+.firstName, .lastName {
+    font-size: 8vw;
+    margin-left: 5%;
+}
+
+.firstName {
+    margin-top: 12vh;
 }
 
 hr {
-    margin: 24px 0 10px 60px;
+    margin-left: 5%;
     height: 5px !important;
-    background: linear-gradient(90deg, rgba(255, 0, 99, 1) 0%, rgba(255, 213, 49, 1) 100%);
-    width: 20vw;
+    color: #eb4034;
+    width: 15vw;
     opacity: 1;
     border-radius: 2em;
+    margin-top: 5vh;
 }
 
 .role {
-    /* margin-left: 60px; */
-    /* margin-top: 7vw;
+    margin-top: 7vw;
     margin-left: 6%;
-    font-size: 4vw;*/
+    font-size: 4vw;
 }
 
-.card {
-    border: none;
-}
+/*------------------------*/
 
-/* remove the rounded top left and right corners of the card */
-.card-img-top {
-    /* border-top-left-radius: 0;
-    border-top-right-radius: 0; */
-    border-radius: 10px;
-    /* overflow: hidden; */
-    object-fit: cover;
-}
-
-.card-title {
-    font-size: 1.5rem;
-}
-
-.title-explanation {
-    font-weight: normal;
-    font-size: 1rem;
-}
-
-/* code to make the menu items not push down the rest of the page -----------*/
+/* code to make the menu items not push down the rest of the page*/
 nav ul li {
-    /* position: relative; */
-
+    position: relative;
 }
 
 .navbar-collapse {
-    /* position: absolute;
+    position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     z-index: 1;
-    margin-right: 10px; */
+    margin-right: 10px;
 }
 
-/*end non-push down code ---------------------------------------*/
-
-/* start of the scroll bar code-------------------------------- */
-/* width */
-::-webkit-scrollbar {
-    width: 15px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: rgb(255, 255, 255);
-    box-shadow: inset 0 0 4px grey;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    /* background: rgb(255, 213, 49); */
-    background: rgb(43, 43, 43);
-    border-radius: 10px;
-    box-shadow: inset 0 0 5px grey;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(255, 0, 99);
-    box-shadow: none;
-}
-
-/* end of the scroll bar code---------------------------------- */
-
-.mobile-name {
-    display: none;
-}
-
-@media only screen and (max-width: 660px) {
-    h1 {
-        font-size: 6vw;
-    }
-
-    .navbar-brand {
-        /* color: black;
-        text-decoration: none; */
-        /*margin-left: 50px;*/
-        letter-spacing: normal;
-        display: block;
-    }
-
-    a>h1 {
-        display: none;
-    }
-
-    .mobile-name {
-        margin-left: 60px;
-        display: block;
-    }
-
-    .role {
-        font-size: 5vw !important;
-    }
-
-    hr {
-        margin: 15px 0 10px 60px;
-    }
-}
+/*------------------------*/
