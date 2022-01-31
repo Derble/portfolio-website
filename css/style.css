@@ -78,6 +78,10 @@ a:hover {
     height: 81vh;
 }
 
+#portfolio {
+    height: 80px;
+}
+
 h1 {
     margin: 0;
     align-self: center;
@@ -106,9 +110,9 @@ hr {
 /* remove the rounded top left and right corners of the card */
 .card-img-top {
     border-radius: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
     object-fit: cover;
-    height: 33vh;
+    height: 32vh;
     min-width: 300px;
 }
 
