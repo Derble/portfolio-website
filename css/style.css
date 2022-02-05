@@ -78,6 +78,10 @@ a:hover {
     height: 81vh;
 }
 
+.container {
+    margin-top: 8em;
+}
+
 #portfolio {
     height: 80px;
 }
