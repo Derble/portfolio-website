@@ -90,6 +90,22 @@ a:hover {
     height: 80px;
 }
 
+#skills {
+    height: 80px;
+}
+
+#certificates {
+    height: 80px;
+}
+
+#about {
+    height: 80px;
+}
+
+#contact {
+    height: 80px;
+}
+
 h1 {
     margin: 0;
     align-self: center;
@@ -132,6 +148,17 @@ hr {
 .title-explanation {
     font-weight: normal;
     font-size: 1rem;
+}
+
+.certificate-list {
+    margin-left: 15vw;
+    padding-left: 20px;
+    border-left-style: solid;
+    border-color: rgb(255, 0, 99);
+}
+
+.certificate-item>ul>li {
+    padding: 1rem 0 0 0.5rem;
 }
 
 .footer-content {
@@ -225,5 +252,9 @@ nav ul li {
 
     hr {
         margin: 15px 0 10px 60px;
+    }
+
+    .certificate-list {
+        margin-left: auto;
     }
 }
