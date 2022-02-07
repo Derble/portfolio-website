@@ -15,7 +15,7 @@ body {
 }
 
 .nav-item {
-    margin-left: 1em;
+    margin-left: 1rem;
 }
 
 .logoDL {
@@ -149,6 +149,7 @@ hr {
     object-fit: cover;
     height: 32vh;
     min-width: 300px;
+    min-height: 300px;
 }
 
 .card-title {
