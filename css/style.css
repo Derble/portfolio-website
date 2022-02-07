@@ -82,6 +82,10 @@ a:hover {
     margin-top: 8em;
 }
 
+.col {
+    /* padding: 0 0 0 0; */
+}
+
 #portfolio {
     height: 80px;
 }
