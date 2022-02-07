@@ -127,6 +127,16 @@ hr {
     font-size: 4vw;*/
 }
 
+.section-title {
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    /* transition: color 0.4s; */
+}
+
+/* .section-title:hover {
+    color: rgb(255, 0, 99);
+} */
+
 .card {
     border: none;
     margin: 5% 0 0 0;
