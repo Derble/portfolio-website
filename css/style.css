@@ -109,6 +109,7 @@ hr {
 
 .card {
     border: none;
+    margin: 5% 0 0 0;
 }
 
 /* remove the rounded top left and right corners of the card */
@@ -127,6 +128,21 @@ hr {
 .title-explanation {
     font-weight: normal;
     font-size: 1rem;
+}
+
+.footer-content {
+    color: white;
+    background: linear-gradient(90deg, rgba(255, 0, 99, 1) 0%, rgba(255, 213, 49, 1) 100%);
+}
+
+.footer-text {
+    letter-spacing: 0.1rem;
+}
+
+.footer-icons {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
 }
 
 /* code to make the menu items not push down the rest of the page -----------*/
