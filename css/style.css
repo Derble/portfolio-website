@@ -161,9 +161,9 @@ hr {
     font-size: 1rem;
 }
 
-.certificate-list {
-    margin-left: 15vw;
-    padding-left: 20px;
+.accent-border {
+    /* margin-left: 10px; */
+    padding-left: 30px;
     border-left-style: solid;
     border-color: rgb(255, 0, 99);
 }
@@ -265,7 +265,12 @@ nav ul li {
         margin: 15px 0 10px 60px;
     }
 
-    .certificate-list {
+    /* does not exist anymore */
+    /* .certificate-list {
         margin-left: auto;
+    } */
+
+    .accent-border {
+        margin-left: 15px;
     }
 }
