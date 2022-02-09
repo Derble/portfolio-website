@@ -22,9 +22,21 @@ body {
     margin-right: 20px;
 }
 
+a {
+    color: rgb(255, 0, 99);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 0, 99);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 a.nav-link:hover {
     color: rgb(255, 0, 99);
     font-weight: bold;
+    text-decoration: none;
 }
 
 /* menu hover underline animation -------------- */
