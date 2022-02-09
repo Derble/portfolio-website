@@ -23,18 +23,21 @@ body {
 }
 
 a {
-    color: rgb(255, 0, 99);
+    /* color: rgb(255, 0, 99); */
+    color: #AD0042;
     text-decoration: none;
+    font-weight: 600;
 }
 
 a:hover {
-    color: rgb(255, 0, 99);
+    color: #EB0000;
     font-weight: bold;
     text-decoration: underline;
+    font-weight: 700;
 }
 
 a.nav-link:hover {
-    color: rgb(255, 0, 99);
+    color: #ff0063;
     font-weight: bold;
     text-decoration: none;
 }
@@ -179,7 +182,8 @@ hr {
 }
 
 .footer-text {
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.08rem;
+    font-weight: 800;
 }
 
 .footer-icons {
