@@ -78,8 +78,9 @@ a:hover {
     height: 81vh;
 }
 
-.container {
-    margin-top: 8em;
+.container-margin-add {
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 .col {
@@ -166,10 +167,22 @@ hr {
     padding-left: 30px;
     border-left-style: solid;
     border-color: rgb(255, 0, 99);
+    /* border-color: linear-gradient(180deg, rgba(255, 0, 99, 1) 0%, rgba(255, 213, 49, 1) 100%); */
 }
 
 .certificate-item>ul>li {
     padding: 1rem 0 0 0.5rem;
+}
+
+.portrait {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    /* padding: 5px; */
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 0, 99);
+    background-color: rgb(255, 0, 99);
 }
 
 .footer-content {
@@ -238,7 +251,14 @@ nav ul li {
     display: none;
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 770px) {
+    .portrait {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 670px) {
     h1 {
         font-size: 6vw;
     }
@@ -264,11 +284,6 @@ nav ul li {
     hr {
         margin: 15px 0 10px 60px;
     }
-
-    /* does not exist anymore */
-    /* .certificate-list {
-        margin-left: auto;
-    } */
 
     .accent-border {
         margin-left: 15px;
