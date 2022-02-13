@@ -250,19 +250,19 @@ hr {
 
 /* code to make the menu items not push down the rest of the page -----------*/
 /* this currently needs work, looks good without it */
-nav ul li {
-    /* position: relative; */
+/* nav ul li {
+    position: relative;
 
 }
 
 .navbar-collapse {
-    /* position: absolute;
+    position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     z-index: 1;
-    margin-right: 10px; */
-}
+    margin-right: 10px;
+} */
 
 /*end non-push down code ---------------------------------------*/
 
