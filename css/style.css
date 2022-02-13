@@ -73,36 +73,42 @@ a.nav-link:hover {
 /* end menu hover underline animation -------------- */
 
 .highlight-color {
-    color: rgb(255, 0, 99);
+    color: rgb(255, 0, 99) !important;
 }
 
 .intro-font-size {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .hero {
     /* background: url("../img/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg"); */
-    /* background-position: center; */
-    /* background-size: cover; */
+    background: url("../img/lorenzo-herrera-p0j-mE6mGo4-unsplash-dark-70.jpg");
+    background-position: center;
+    background-size: cover;
     /* background: rgb(255, 0, 99);
     background: linear-gradient(90deg, rgba(255, 0, 99, 1) 0%, rgba(255, 213, 49, 1) 100%); */
-    background: #1b171e;
-    /* height: 81vh; */
+    /* background: #1b171e; */
+    height: 81vh;
     /* height: 70vh; */
     color: rgb(255, 255, 255);
 }
 
-.hero-buffer {
+.hero-buffer-top {
+    /* height: 15vh; */
+    height: 25vh;
+}
+
+.hero-buffer-bottom {
     /* height: 15vh; */
     height: 20vh;
 }
 
 .hero-line-height {
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 .container-margin-add {
-    margin-top: 4em;
+    /* margin-top: 4em; */
     margin-bottom: 4em;
 }
 
@@ -141,9 +147,10 @@ hr {
 }
 
 .section-title {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: rgb(0, 0, 0);
     /* transition: color 0.4s; */
+    /* font-variant: small-caps; */
 }
 
 /* .section-title:hover {
@@ -196,11 +203,17 @@ hr {
 
 .skills-container {
     background: #1b171e;
+    color: rgb(255, 255, 255);
+}
+
+.skills-padding-add {
+    padding-bottom: 8rem;
 }
 
 .section-title-skills {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: rgb(255, 255, 255);
+    /* font-variant: small-caps; */
 }
 
 .certificate-item>ul>li {
@@ -286,10 +299,18 @@ nav ul li {
     display: none;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 768px) {
     .portrait {
         width: 60%;
         height: auto;
+    }
+
+    .hero-buffer-top {
+        height: 20vh;
+    }
+
+    .skills-sm-margin {
+        margin-bottom: 4rem;
     }
 }
 
@@ -320,7 +341,7 @@ nav ul li {
         margin: 15px 0 10px 60px;
     }
 
-    .hero-buffer {
+    /* .hero-buffer {
         height: 10vh;
-    }
+    } */
 }
