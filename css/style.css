@@ -1,5 +1,5 @@
 body {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
     background: #fff;
 }
 
@@ -8,11 +8,11 @@ body {
 .navbar {
     /* background-color: transparent !important; */
     background-color: #fff !important;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .navbar-brand {
-    letter-spacing: .2em;
+    letter-spacing: .1rem;
     display: flex;
 }
 
@@ -72,6 +72,40 @@ a.nav-link:hover {
 
 /* end menu hover underline animation -------------- */
 
+.base-button {
+    background: #ff0063;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    border: none;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.base-button:hover {
+    background: #AD0042;
+}
+
+.filter-button {
+    background: #ffffff;
+    color: #ff0063;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    border-color: #ff0063;
+    border-width: 5px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.filter-button:hover {
+    background: #ff0063;
+    color: white;
+}
+
 .highlight-color {
     color: rgb(255, 0, 99) !important;
 }
@@ -88,14 +122,15 @@ a.nav-link:hover {
     /* background: rgb(255, 0, 99);
     background: linear-gradient(90deg, rgba(255, 0, 99, 1) 0%, rgba(255, 213, 49, 1) 100%); */
     /* background: #1b171e; */
-    height: 81vh;
-    /* height: 70vh; */
+    height: 83vh;
+    /* height: 76vh; */
     color: rgb(255, 255, 255);
+    min-height: 880px;
 }
 
 .hero-buffer-top {
     /* height: 15vh; */
-    height: 25vh;
+    height: 20vh;
 }
 
 .hero-buffer-bottom {
@@ -160,11 +195,21 @@ hr {
 .card {
     border: none;
     margin: 5% 0 0 0;
+    border-radius: 0px;
+    transition: 0.4s;
+}
+
+.card:hover {
+    /* border: none; */
+    /* margin: 5% 0 0 0; */
+    /* background: #1b171e; */
+    /* color: white; */
+    box-shadow: 0px 0px 8px 3px #8e7a9e;
 }
 
 /* remove the rounded top left and right corners of the card */
 .card-img-top {
-    border-radius: 10px;
+    border-radius: 0px;
     /* overflow: hidden; */
     object-fit: cover;
     height: 32vh;
@@ -201,12 +246,12 @@ hr {
     opacity: 90%; */
 }
 
-.skills-container {
+.dark-container {
     background: #1b171e;
     color: rgb(255, 255, 255);
 }
 
-.skills-padding-add {
+.certifications-padding-add {
     padding-bottom: 8rem;
 }
 
@@ -294,9 +339,10 @@ hr {
 
 /* end of the scroll bar code---------------------------------- */
 
-/* hides mobile name on 661px and up page sizes */
+/* hides mobile name on 671px and up page sizes */
 .mobile-name {
     display: none;
+    letter-spacing: 0.1rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -306,7 +352,7 @@ hr {
     }
 
     .hero-buffer-top {
-        height: 20vh;
+        height: 13vh;
     }
 
     .skills-sm-margin {
@@ -320,7 +366,7 @@ hr {
     }
 
     .navbar-brand {
-        letter-spacing: normal;
+        /* letter-spacing: normal; */
         display: block;
     }
 

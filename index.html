@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Derry Lammerding | Web Developer</title>
@@ -59,15 +60,19 @@
         <div class="container">
             <div class="row hero-buffer-top"></div>
             <div class="row hero-line-height">
-                <div class="col-sm-0 col-md-2"></div>
-                <div class="col-sm-12 col-md-8 accent-border-2">
+                <div class="col-sm-0 col-md-1 col-lg-2"></div>
+                <div class="col-sm-12 col-md-11 col-lg-8 accent-border-2">
                     <h3 class="fw-bold mb-4 intro-font-size">Hi, I'm <span class="highlight-color">Derry</span>.</h3>
-                    <p class="fs-3">I am a full-stack web developer, currently open to freelance or contract positions.</p>
-                    <p class="fs-3">My specialties are <strong>front-end design and development</strong>, <strong>WordPress simple site development</strong>, and <strong>teaching WordPress maintenance</strong> to customers.</p>
+                    <p class="fs-3 mt-5">I am a full-stack web developer, currently open to freelance or contract positions.</p>
+                    <p class="fs-3">My specialties are <strong>front-end design and development</strong>, <strong>WordPress site development</strong>, and <strong>teaching WordPress maintenance</strong> to customers.</p>
+                    <div class="text-end mt-5">
+                        <a href="#portfolio"><button class="base-button me-2">PORTFOLIO</button></a>
+                        <a href="#contact"><button class="base-button">GET IN TOUCH</button></a>
+                    </div>
                 </div>
-                <div class="col-sm-0 col-md-2"></div>
+                <div class="col-sm-0 col-md-0 col-lg-2"></div>
             </div>
-            <div class="row hero-buffer-bottom"></div>
+            <!-- <div class="row hero-buffer-bottom"></div> -->
         </div>
     </div>
 
@@ -75,6 +80,24 @@
         <div class="row" id="portfolio"></div>
         <div class="row my-5 hover-underline-animation">
             <h2 class="fw-bold section-title">PORTFOLIO</h2>
+        </div>
+        <div class="row mb-4 d-flex flex-wrap flex-row text-center">
+            <div class="col-sm-2">
+                <h3 class="text-end fs-4 pt-3">FILTER: </h3>
+            </div>
+            <div class="col-sm-10">
+                <a href=""><button class="filter-button me-2 mb-2">ALL ITEMS</button></a>
+                <a href=""><button class="filter-button me-2 mb-2">FIGMA</button></a>
+                <a href=""><button class="filter-button me-2 mb-2">BOOTSTRAP</button></a>
+                <a href=""><button class="filter-button me-2 mb-2">HTML & CSS</button></a>
+                <a href=""><button class="filter-button me-2 mb-2">DESIGN</button></a>
+                <a href=""><button class="filter-button me-2 mb-2">GRID</button></a>
+                <a href=""><button class="filter-button me-2 mb-2">PHP</button></a>
+                <a href=""><button class="filter-button me-2 mb-2">JavaScript</button></a>
+                <a href=""><button class="filter-button me-2 mb-2">SQL</button></a>
+                <a href=""><button class="filter-button me-2 mb-2">WORDPRESS</button></a>
+                <a href=""><button class="filter-button me-2 mb-2">PHOTOSHOP</button></a>
+            </div>
         </div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-lg-5 text-center">
             <div class="col">
@@ -190,13 +213,13 @@
         </div>
     </div>
 
-    <div class="skills-container">
+    <div class="dark-container">
         <div class="container">
             <div class="row" id="skills"></div>
             <div class="row my-5 hover-underline-animation">
                 <h2 class="fw-bold section-title-skills highlight-color">SKILLS</h2>
             </div>
-            <div class="row fs-5 skills-padding-add">
+            <div class="row fs-5">
                 <div class="col-sm-0 col-md-3"></div>
                 <div class="col-sm-12 col-md-4 accent-border skills-sm-margin">
                     <h3 class="fs-2 fw-bold mb-4">Languages & Frameworks</h3>
@@ -229,25 +252,25 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container container-margin-add">
-        <div class="row" id="certificates"></div>
-        <div class="row my-5 hover-underline-animation">
-            <h2 class="fw-bold section-title">CERTIFICATIONS</h2>
-        </div>
-        <div class="row">
-            <div class="col-sm-0 col-md-3"></div>
-            <div class="accent-border col-sm-12 col-md-9">
-                <h3 class="fs-2 fw-bold">Microsoft Technology Associate (MTA)</h3>
-                <div class="certificate-item">
-                    <ul class="fs-5">
-                        <li><strong>98-381: Introduction to Programming Using Python</strong> | December 2019</li>
-                        <li><strong>98-349: Windows Operating System Fundamentals</strong> | August 2020</li>
-                        <li><strong>98-383: Introduction to Programming Using HTML and CSS</strong> | August 2020</li>
-                        <li><strong>98-361: Software Development Fundamentals</strong> | December 2021</li>
-                        <li><strong>98-382: Introduction to Programming Using JavaScript</strong> | June 2021</li>
-                    </ul>
+        <div class="container">
+            <div class="row" id="certificates"></div>
+            <div class="row my-5 hover-underline-animation">
+                <h2 class="fw-bold section-title highlight-color">CERTIFICATIONS</h2>
+            </div>
+            <div class="row certifications-padding-add">
+                <div class="col-sm-0 col-md-3"></div>
+                <div class="accent-border col-sm-12 col-md-9">
+                    <h3 class="fs-2 fw-bold">Microsoft Technology Associate (MTA)</h3>
+                    <div class="certificate-item">
+                        <ul class="fs-5">
+                            <li><strong>98-381: Introduction to Programming Using Python</strong> | December 2019</li>
+                            <li><strong>98-349: Windows Operating System Fundamentals</strong> | August 2020</li>
+                            <li><strong>98-383: Introduction to Programming Using HTML and CSS</strong> | August 2020</li>
+                            <li><strong>98-361: Software Development Fundamentals</strong> | December 2021</li>
+                            <li><strong>98-382: Introduction to Programming Using JavaScript</strong> | June 2021</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
