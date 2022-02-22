@@ -45,3 +45,18 @@ function removeClass(element, name) {
     // joins array elements into class name
     element.className = arr1.join(" ");
 }
+
+// add active class to highlight button that was chosen
+// handles to the filter buttons
+let buttonContainer = document.getElementById("button-container");
+let buttons = buttonContainer.getElementsByClassName("filter-button");
+// add event listener to each button
+//on click, gets the element with active class and removves it by replacing it with empty string, 
+// adds active to the classname that was clicked
+for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function () {
+        let current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+    });
+}

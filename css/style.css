@@ -104,6 +104,11 @@ a.nav-link:hover {
     transition: 0.4s;
 }
 
+.filter-button.active {
+    background: #ff0063;
+    color: white;
+}
+
 .filter-button:hover {
     background: #ff0063;
     color: white;
