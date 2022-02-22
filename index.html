@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/portfolio.js"></script>
     <title>Derry Lammerding | Web Developer</title>
 </head>
 
@@ -85,8 +86,8 @@
             <div class="col-sm-2">
                 <h3 class="text-end fs-4 pt-3">FILTER: </h3>
             </div>
-            <div class="col-sm-10">
-                <a href=""><button class="filter-button me-2 mb-2">ALL ITEMS</button></a>
+            <div class="col-sm-10" id="button-container">
+                <!-- <a href=""><button class="filter-button me-2 mb-2">ALL ITEMS</button></a>
                 <a href=""><button class="filter-button me-2 mb-2">FIGMA</button></a>
                 <a href=""><button class="filter-button me-2 mb-2">BOOTSTRAP</button></a>
                 <a href=""><button class="filter-button me-2 mb-2">HTML & CSS</button></a>
@@ -96,11 +97,22 @@
                 <a href=""><button class="filter-button me-2 mb-2">JAVASCRIPT</button></a>
                 <a href=""><button class="filter-button me-2 mb-2">SQL</button></a>
                 <a href=""><button class="filter-button me-2 mb-2">WORDPRESS</button></a>
-                <a href=""><button class="filter-button me-2 mb-2">PHOTOSHOP</button></a>
+                <a href=""><button class="filter-button me-2 mb-2">PHOTOSHOP</button></a> -->
+                <button class="filter-button me-2 mb-2" onclick="filterCards('all')">ALL ITEMS</button>
+                <button class="filter-button me-2 mb-2" onclick="filterCards('figma')">FIGMA</button>
+                <button class="filter-button me-2 mb-2" onclick="filterCards('bootstrap')">BOOTSTRAP</button>
+                <button class="filter-button me-2 mb-2" onclick="filterCards('html&css')">HTML & CSS</button>
+                <button class="filter-button me-2 mb-2" onclick="filterCards('design')">DESIGN</button>
+                <button class="filter-button me-2 mb-2" onclick="filterCards('grid')">GRID</button>
+                <button class="filter-button me-2 mb-2" onclick="filterCards('php')">PHP</button>
+                <button class="filter-button me-2 mb-2" onclick="filterCards('javascript')">JAVASCRIPT</button>
+                <button class="filter-button me-2 mb-2" onclick="filterCards('sql')">SQL</button>
+                <button class="filter-button me-2 mb-2" onclick="filterCards('wordpress')">WORDPRESS</button>
+                <button class="filter-button me-2 mb-2" onclick="filterCards('photoshop')">PHOTOSHOP</button>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-lg-5 text-center">
-            <div class="col">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-lg-5 text-center cards">
+            <div class="col portfolio-card figma design">
                 <div class="card">
                     <img src="img/mile-high-comics-crop.jpg" class="card-img-top" alt="Mile High Comics Figma Website Redesign">
                     <div class="card-body">
@@ -110,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col portfolio-card bootstrap grid html&css">
                 <div class="card">
                     <img src="img/travel-japan.PNG" class="card-img-top" alt="Travel Japan Flexbox Project">
                     <div class="card-body">
@@ -120,7 +132,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col portfolio-card bootstrap php html&css">
                 <div class="card">
                     <img src="img/temperature-converter-3.PNG" class="card-img-top" alt="Temperature Converter Screenshot">
                     <div class="card-body">
@@ -130,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col portfolio-card bootstrap javascript html&css">
                 <div class="card">
                     <img src="img/new-york-times-api-main.PNG" class="card-img-top" alt="New York Times API article website image">
                     <div class="card-body">
@@ -140,7 +152,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col portfolio-card bootstrap javascript html&css">
                 <div class="card">
                     <img src="img/retromon-games-javascript-main.PNG" class="card-img-top" alt="Retromon Games JavaScript Website">
                     <div class="card-body">
@@ -150,7 +162,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col portfolio-card javascript html&css">
                 <div class="card">
                     <img src="img/javascript-clock-main.PNG" class="card-img-top" alt="Retromon Games JavaScript Website image">
                     <div class="card-body">
@@ -160,7 +172,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col portfolio-card bootstrap javascript html&css">
                 <div class="card">
                     <img src="img/openweather-api-main.PNG" class="card-img-top" alt="Openweather API Website image displaying weather forcast">
                     <div class="card-body">
@@ -170,7 +182,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col portfolio-card bootstrap php sql html&css">
                 <div class="card">
                     <img src="img/image-gallery-upload.PNG" class="card-img-top" alt="image gallery website showing uploaded images">
                     <div class="card-body">
@@ -180,7 +192,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col portfolio-card wordpress design html&css">
                 <div class="card">
                     <img src="img/retromon-games-wordpress-main-2.PNG" class="card-img-top" alt="main page for Retromon Games developed in WordPress">
                     <div class="card-body">
@@ -190,7 +202,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col portfolio-card php sql bootstrap html&css">
                 <div class="card">
                     <img src="img/student-record-manager-display.PNG" class="card-img-top" alt="main page displaying student record information">
                     <div class="card-body">
@@ -200,7 +212,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col portfolio-card photoshop design">
                 <div class="card">
                     <img src="img/plants-2-sec-gif.gif" class="card-img-top" alt="rotating gif of plants drawn in photoshop">
                     <div class="card-body">
@@ -283,7 +295,7 @@
         </div>
         <div class="row">
             <div class="col-sm-0 col-md-3 text-center mb-5 pe-md-4">
-                <img class="portrait" src="img/portrait-flipped.jpg" alt="Picture of Derry">
+                <!-- <img class="portrait" src="img/portrait-flipped.jpg" alt="Picture of Derry"> -->
             </div>
             <div class="col-sm-12 col-md-9 accent-border">
                 <p class="fs-5">Before my career as a Web Developer, I was a Math Teacher, Educational Technology Specialist, Technology Coach, and Software Support Analyst.</p>

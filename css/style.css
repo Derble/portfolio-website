@@ -196,6 +196,14 @@ hr {
     color: rgb(255, 0, 99);
 } */
 
+.portfolio-card {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
 .card {
     border: none;
     margin: 5% 0 0 0;
