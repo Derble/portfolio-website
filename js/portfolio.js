@@ -1,18 +1,18 @@
 // load default all cards
 filterCards("all");
 
-function filterCards(c) {
+function filterCards(filterClass) {
     let x, i;
     // handle to the cards
     x = document.getElementsByClassName("portfolio-card");
-    if (c == "all") {
-        c = "";
+    if (filterClass == "all") {
+        filterClass = "";
     }
     for (i = 0; i < x.length; i++) {
         // removes show class for each item
         removeClass(x[i], "show");
-        // adds show class for the value of c, if it has a class name that matches the value selected
-        if (x[i].className.indexOf(c) > -1) {
+        // add class for the value of c, if it has a class name that matches the value selected
+        if (x[i].className.indexOf(filterClass) > -1) {
             addClass(x[i], "show");
         }
     }
