@@ -414,6 +414,7 @@ hr {
     } */
 }
 
+
 @media only screen and (max-width: 480px) {
     /* h1 {
         font-size: 1.4em;
@@ -423,4 +424,7 @@ hr {
         width: 14vw;
     }
 
+    .section-title, .section-title-skills {
+        font-size: 2rem;
+    }
 }
