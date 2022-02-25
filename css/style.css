@@ -397,7 +397,7 @@ hr {
     }
 
     .mobile-name {
-        margin-left: 60px;
+        margin: 0 60px;
         display: block;
     }
 
@@ -412,4 +412,15 @@ hr {
     /* .hero-buffer {
         height: 10vh;
     } */
+}
+
+@media only screen and (max-width: 480px) {
+    /* h1 {
+        font-size: 1.4em;
+    } */
+
+    hr {
+        width: 14vw;
+    }
+
 }
