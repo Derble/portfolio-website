@@ -380,6 +380,10 @@ hr {
     .skills-sm-margin {
         margin-bottom: 4rem;
     }
+
+    #portfolio {
+        height: 110px;
+    }
 }
 
 @media only screen and (max-width: 670px) {
@@ -412,6 +416,24 @@ hr {
     /* .hero-buffer {
         height: 10vh;
     } */
+
+    .filter-button {
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+
+    .base-button {
+        padding: 7px 15px;
+        font-size: 1rem;
+    }
+
+    .hero-about {
+        font-size: 1.1rem !important;
+    }
+
+    .hero-p {
+        font-size: 1rem !important;
+    }
 }
 
 
@@ -426,5 +448,9 @@ hr {
 
     .section-title, .section-title-skills {
         font-size: 2rem;
+    }
+
+    .intro-font-size {
+        font-size: 2.8rem;
     }
 }
