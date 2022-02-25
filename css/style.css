@@ -130,20 +130,24 @@ a.nav-link:hover {
     /* background: rgb(255, 0, 99);
     background: linear-gradient(90deg, rgba(255, 0, 99, 1) 0%, rgba(255, 213, 49, 1) 100%); */
     /* background: #1b171e; */
-    height: 83vh;
+    /* height: 83vh; */
+    height: 100%;
     /* height: 76vh; */
     color: rgb(255, 255, 255);
-    min-height: 880px;
+    min-height: 700px;
+}
+
+.hero-content {
+    padding: 15vh 0;
 }
 
 .hero-buffer-top {
-    /* height: 15vh; */
+    /* height: 100%; */
     height: 20vh;
 }
 
 .hero-buffer-bottom {
-    /* height: 15vh; */
-    height: 20vh;
+    height: 15vh;
 }
 
 .hero-line-height {
