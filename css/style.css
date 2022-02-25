@@ -142,7 +142,6 @@ a.nav-link:hover {
 }
 
 .hero-buffer-top {
-    /* height: 100%; */
     height: 20vh;
 }
 
@@ -279,7 +278,6 @@ hr {
 .section-title-skills {
     font-size: 2.8rem;
     color: rgb(255, 255, 255);
-    /* font-variant: small-caps; */
 }
 
 .certificate-item>ul>li {
@@ -392,7 +390,6 @@ hr {
     }
 
     .navbar-brand {
-        /* letter-spacing: normal; */
         display: block;
     }
 
@@ -413,10 +410,6 @@ hr {
         margin: 15px 0 10px 60px;
     }
 
-    /* .hero-buffer {
-        height: 10vh;
-    } */
-
     .filter-button {
         padding: 5px 10px;
         font-size: 1rem;
@@ -430,15 +423,10 @@ hr {
     .hero-about {
         font-size: 1.1rem !important;
     }
-
 }
 
 
 @media only screen and (max-width: 480px) {
-    /* h1 {
-        font-size: 1.4em;
-    } */
-
     hr {
         width: 14vw;
     }
