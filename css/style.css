@@ -313,6 +313,24 @@ hr {
     margin: 10px 7px 15px 7px;
 }
 
+.card-icons {
+    height: 30px;
+    width: 30px;
+    /* margin-bottom: 10px; */
+    /* margin: 10px 7px 15px 7px; */
+    /* align-self: end !important; */
+    text-align: end !important;
+    transition: 0.4s;
+    /* margin: 10px 0px; */
+    /* padding: 5px 0px; */
+}
+
+.card-icons:hover {
+    height: 34px;
+    width: 34px;
+    /* z-index: 10; */
+}
+
 /* code to make the menu items not push down the rest of the page -----------*/
 /* this currently needs work, looks good without it */
 /* nav ul li {
