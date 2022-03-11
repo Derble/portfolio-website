@@ -77,7 +77,7 @@ a.nav-link:hover {
 /* end menu hover underline animation -------------- */
 
 .base-button {
-    background: #ff0063;
+    background: #E60058;
     color: white;
     text-align: center;
     padding: 10px 20px;
@@ -111,7 +111,7 @@ a.nav-link:hover {
 }
 
 .filter-button.active {
-    background: #ff0063;
+    background: #E60058;
     color: white;
 }
 
