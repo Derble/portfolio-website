@@ -95,10 +95,13 @@ a.nav-link:hover {
 
 .filter-button {
     background: #ffffff;
-    color: #ff0063;
+    /* background: #1b171e; */
+    /* color: #1b171e; */
+    color: #AD0042;
+    /* color: #ff0063; */
     text-align: center;
-    padding: 10px 20px;
-    font-weight: bolder;
+    padding: 8px 14px;
+    font-weight: 700;
     font-size: 1.1rem;
     letter-spacing: 0.1rem;
     border-color: #ff0063;
@@ -127,7 +130,7 @@ a.nav-link:hover {
 }
 
 .hero {
-    background: url("../img/lorenzo-herrera-p0j-mE6mGo4-unsplash-dark-70.jpg");
+    background: url("../img/lorenzo-herrera-p0j-mE6mGo4-unsplash-dark-70.webp");
     background-position: center;
     background-size: cover;
     height: 100%;
