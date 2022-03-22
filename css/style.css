@@ -403,6 +403,10 @@ hr {
     .hero-about {
         font-size: 1.1rem !important;
     }
+
+    .hero {
+        background: url("../img/lorenzo-herrera-p0j-mE6mGo4-unsplash-dark-70-x720.webp");
+    }
 }
 
 
@@ -421,5 +425,9 @@ hr {
 
     .about-p {
         font-size: 1rem !important;
+    }
+
+    .hero {
+        background: url("../img/lorenzo-herrera-p0j-mE6mGo4-unsplash-dark-70-x480.webp");
     }
 }
